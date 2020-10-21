@@ -1,0 +1,32 @@
+{
+  "name": "erc20token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingzombie82/ERC20Token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codingzombie82/ERC20Token/issues"
+  },
+  "homepage": "https://github.com/codingzombie82/ERC20Token#readme",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "openzeppelin-solidity": "^2.3.0"
+  },
+  "dependencies": {
+    "truffle-flattener": "^1.5.0"
+  }
+}
